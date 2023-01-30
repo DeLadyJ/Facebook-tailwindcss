@@ -6,12 +6,13 @@
     border-radius: 20px;
     width: 20%;
     height: 60vh;
-    font-size: small;
+    
 }
 header {
     display: flex;
    /* background-color: yellow;*/
     /*justify-content: space-between;*/
+    font-size: small;
 
 
 }
@@ -47,6 +48,7 @@ main h1 {
     font: bold;
     font-size: medium;
     color:blue;
+    align-items: center;
 }
 #menu {
     display: flex;
@@ -55,4 +57,8 @@ main h1 {
 }
 a {
     align-content: flex-start;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
