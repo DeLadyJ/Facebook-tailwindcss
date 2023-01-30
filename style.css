@@ -46,18 +46,18 @@ header {
 }
 main h1 {
     font: bold;
-    font-size: medium;
+    font-size: large;
     color:blue;
     align-items: center;
 }
 #menu {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
 }
 a {
     align-content: flex-start;
     text-decoration: none;
+    font-size: medium;
 }
 a:hover {
     text-decoration: underline;
