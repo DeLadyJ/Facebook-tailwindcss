@@ -15,14 +15,18 @@
     padding: 2px;
 }
  
-#left image{
+#time {
     width: auto;
     border: none;
-    height: 5vh;
+    height: 3vh;
 }
-#high-five image {
-    height: 30vh;
+#middle {
+    background-color: yellow;
+}
+#middle image {
+    height: 15vh;
     width: auto;
     justify-items: center;
-    background-color: yellow;
+    align-items: center;
+    
 }
