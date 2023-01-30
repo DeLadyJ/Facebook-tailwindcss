@@ -6,7 +6,7 @@
     border-radius: 20px;
     width: 20%;
     height: 60vh;
-    font-size: x-small;
+    font-size: small;
 }
 #top {
     display: flex;
@@ -19,6 +19,10 @@
     width: auto;
     border: none;
     height: 3vh;
+}
+#right {
+    display: flex;
+    justify-content: space-around;
 }
 #middle {
     background-color: yellow;
