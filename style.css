@@ -12,17 +12,16 @@
     display: flex;
     background-color: yellow;
     justify-content: space-between;
-    padding: 2px;
+    padding: 4px;
 }
  
-#time {
-    width: auto;
-    border: none;
-    height: 3vh;
+#left p{
+    font: bold;
 }
 #right {
     display: flex;
     justify-content: space-around;
+
 }
 #right svg {
     height: 3vh;
