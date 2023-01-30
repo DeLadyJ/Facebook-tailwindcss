@@ -8,9 +8,21 @@
     height: 60vh;
     font-size: x-small;
 }
+#top {
+    display: flex;
+    background-color: yellow;
+    justify-content: space-between;
+    padding: 2px;
+}
  
 #left image{
     width: auto;
     border: none;
     height: 5vh;
+}
+#high-five image {
+    height: 30vh;
+    width: auto;
+    justify-items: center;
+    background-color: yellow;
 }
