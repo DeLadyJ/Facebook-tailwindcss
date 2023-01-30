@@ -36,3 +36,12 @@
     justify-items: center;
     align-items: center;
 }
+.main h1 {
+    font: bold;
+    font-size: medium;
+    color:blue;
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
