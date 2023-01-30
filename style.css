@@ -10,23 +10,26 @@
 }
 header {
     display: flex;
-    background-color: yellow;
-    justify-content: space-between;
+   /* background-color: yellow;*/
+    /*justify-content: space-between;*/
 
 
 }
 #top {
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     padding: 4px;
+    background-color: yellow;
 }
  
 #left p{
     font: bold;
+    background-color: yellow;
 }
 #right {
     display: flex;
     justify-content: space-around;
+    background-color: yellow;
 }
 #right svg {
     height: 3vh;
@@ -50,4 +53,7 @@ main h1 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+a {
+    align-content: flex-start;
 }
