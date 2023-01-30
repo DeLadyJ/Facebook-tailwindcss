@@ -1,0 +1,16 @@
+#outline {
+    display: flex-wrap;
+    border-style: solid;
+    border-width:  10px;
+    border-color: black;
+    border-radius: 20px;
+    width: 20%;
+    height: 60vh;
+    font-size: x-small;
+}
+ 
+#left image{
+    width: auto;
+    border: none;
+    height: 5vh;
+}
