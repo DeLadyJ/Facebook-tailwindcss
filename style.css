@@ -24,6 +24,10 @@
     display: flex;
     justify-content: space-around;
 }
+#right svg {
+    height: 3vh;
+    width: auto;
+}
 #middle {
     background-color: yellow;
 }
@@ -32,5 +36,4 @@
     width: auto;
     justify-items: center;
     align-items: center;
-    
 }
