@@ -8,10 +8,16 @@
     height: 60vh;
     font-size: small;
 }
-#top {
+header {
     display: flex;
     background-color: yellow;
     justify-content: space-between;
+
+
+}
+#top {
+    display: flex;
+    /*justify-content: space-between;*/
     padding: 4px;
 }
  
@@ -21,7 +27,6 @@
 #right {
     display: flex;
     justify-content: space-around;
-
 }
 #right svg {
     height: 3vh;
@@ -30,18 +35,18 @@
 #middle {
     background-color: yellow;
 }
-#middle image {
+#middle img {
     height: 10vh;
     width: auto;
     justify-items: center;
     align-items: center;
 }
-.main h1 {
+main h1 {
     font: bold;
     font-size: medium;
     color:blue;
 }
-.menu {
+#menu ul::before{
     display: flex;
-    list-style: none;
+    justify-content: space-between;
 }
