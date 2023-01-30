@@ -46,7 +46,8 @@ main h1 {
     font-size: medium;
     color:blue;
 }
-#menu ul::before{
+#menu {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
