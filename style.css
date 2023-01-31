@@ -13,19 +13,18 @@ header {
    /* background-color: yellow;*/
     /*justify-content: space-between;*/
     font-size: small;
-
-
+}
+#header-top {
+    background-color: yellow;
 }
 #top {
     display: flex;
     justify-content: space-between;
     padding: 4px;
-    background-color: yellow;
 }
  
 #left p{
     font: bold;
-    background-color: yellow;
 }
 #right {
     justify-content: space-around;
@@ -61,4 +60,19 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+#fav-top {
+    display: grid;
+    grid-column: ;
+}
+#fav-top left-side {
+    display: flex;
+}
+#fav-top h2 {
+    align-items: center;
+    font-weight: bold;
+    border-bottom: darkgrey;
+}
+#fav-top p{
+    align-items: flex-start;
 }
