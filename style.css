@@ -20,10 +20,13 @@
     font-size: small;
     font-weight: bold;
     justify-content: space-between;
+   
     }
-/* #right {
-    justify-content: space-around;
-} */
+#right-index {
+    display: flex;
+
+   
+}
 #right svg {
     height: 3vh;
     width: auto;
@@ -116,12 +119,23 @@ header img {
     width: 15px;
     height: auto;
 }   
-main img {
+#middle {
     background-color: yellow;
-    align-items: stretch;
-    width: 200%;
-    height: auto;
-    justify-content: stretch ;
+}
+#fav-p {
+    font-size: small;
+}
+#fav-p input{
+    background-color: whitesmoke;
+    border: none;
+}
+#search-add {
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}#search-add img {
+    width: 15px;
 }
 
 
