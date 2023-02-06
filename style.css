@@ -6,29 +6,24 @@
     border-radius: 20px;
     width: 17%;
     height: 70%;
+    padding: 2px;
     }
 
-#header-top {
-    display: flex;
+#h-top {
     background-color: yellow;
-    justify-content: space-between;
-    font-size: small;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     }
-#top {
+ header #top {
     display: flex;
+    flex-direction: row;
+    font-size: small;
+    font-weight: bold;
     justify-content: space-between;
-    padding: 4px;
-}
- 
-#left {
-    font: bold;
-}
-#right {
+    }
+/* #right {
     justify-content: space-around;
-    background-color: yellow;
-}
+} */
 #right svg {
     height: 3vh;
     width: auto;
@@ -46,21 +41,21 @@ main h1 {
     font: bold;
     font-size: large;
     color:blue;
-    align-items: center;
-    font-size: medium;
+    margin-top: -10px;
 }
 #menu {
     display: flex;
     justify-content: space-between;
 }
-a {
-    align-content: flex-start;
+#menu a {
     text-decoration: none;
     font-size: medium;
+    justify-content: space-around;
+    color: black;
 }
-a:hover {
+#menu a:hover {
     text-decoration: underline;
-    justify-content: center;
+    color: dodgerblue;
 }
 #fav-top {
     display: grid;
@@ -73,7 +68,7 @@ a:hover {
     font-weight: bold;
     border-bottom: darkgrey;
 }
-#fav-top p{
+#fav-top p {
     align-items: flex-start;
 }
 #high-five {
@@ -107,4 +102,22 @@ input {
     margin-left: 5px;
     padding: 1%;
 }
+
+#left {
+    font-weight: bold;
+}
+#menu-right {
+    width: 5px;
+}
+
+header img {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 15px;
+    height: auto;
+}   
+/* header #right-index {
+    display: flex;
+} */
+
 
