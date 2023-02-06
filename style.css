@@ -116,8 +116,12 @@ header img {
     width: 15px;
     height: auto;
 }   
-/* header #right-index {
-    display: flex;
-} */
+main img {
+    background-color: yellow;
+    align-items: stretch;
+    width: 200%;
+    height: auto;
+    justify-content: stretch ;
+}
 
 
